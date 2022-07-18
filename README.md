@@ -8,4 +8,4 @@
 
 [7/14 공부(markdown, git, github)]()  
 [7/15 공부(markdown, git, github)]()  
-[7/18 공부(markdown, git, github)](https://velog.io/@dlgkssk38/0718-%EA%B3%B5%EB%B6%80Python-%EA%B8%B0%EC%B4%88)  
+[7/18 공부(markdown, git, github)](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0718.md)  
