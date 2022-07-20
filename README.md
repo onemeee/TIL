@@ -10,3 +10,4 @@
 [7/15 공부()]()  
 [7/18 공부(Python 기초)](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0718.md)  
 [7/19 공부(Python 기초 실습)](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0719.md)  
+[7/20 공부(제어문 및 함수)](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0720.md)  
