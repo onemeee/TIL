@@ -12,3 +12,4 @@
 [7/20 공부(제어문 및 함수)](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0720.md)  
 [7/21 공부(제어문 및 함수 실습)](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0721.md)  
 [7/22 공부](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0722.md)  
+[7/25 공부(데이터 구조)](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0725.md)  
