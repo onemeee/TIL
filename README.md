@@ -25,3 +25,4 @@
 [8/9 공부](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0809.md)   
 [8/10 공부](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0810.md)   
 [8/12 공부](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0812.md)   
+[8/12 공부](https://github.com/dlgkssk38/TIL/blob/master/%EA%B3%B5%EB%B6%80%EC%A0%95%EB%A6%AC/0816.md)   
