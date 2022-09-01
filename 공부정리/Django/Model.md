@@ -102,6 +102,10 @@ def __str__(self): # 출력 형식 바꾸는 method
 2. GET을 사용하면, 내용 노출됨(DB의 구조를 유추할 수 있게 됨, 변수가 많으면 길이제한에 걸림)
 GET은 조회에만 사용한다!! -> POST로 바꿀 것 ! 
 csrf 토큰 입력!(잘 까먹음!!)
-
-위의 코드 정리하는 방법
-Ctrl + L
+---
+위의 코드 정리하는 방법  
+Ctrl + L  
+```python
+created_at = models.DateTimeField(auto_now_add=True)
+```
+위의 식에서 created_at.day, created_at.month, created_at.year 등 datetime에서 사용하는 문법과 같이 일, 월, 년을 뽑아낼 수 있다.
