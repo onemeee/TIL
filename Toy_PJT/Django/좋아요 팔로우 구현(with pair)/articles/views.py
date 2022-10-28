@@ -1,9 +1,9 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_http_methods, require_POST, require_safe
 from django.contrib.auth.decorators import login_required
-# from django.http import HttpResponse, HttpResponseForbidden
 from .models import Article, Comment
 from .forms import ArticleForm, CommentForm
+from django.http import JsonResponse
 
 
 # Create your views here.
@@ -114,11 +114,18 @@ def comments_delete(request, article_pk, comment_pk):
 @require_POST
 def likes(request, article_pk):
     if request.user.is_authenticated:
-        article = Article.objects.get(pk=article_pk)
+        article = get_object_or_404(Article, pk=article_pk)
         if article.like_users.filter(pk=request.user.pk).exists():
             article.like_users.remove(request.user)
+            is_liked = False
         else:
             article.like_users.add(request.user)
-        return redirect('articles:index')
+            is_liked = True
+        like_count = article.like_users.count()
+        context = {
+            'like_count' : like_count,
+            'is_liked' : is_liked,
+        }
+        return JsonResponse(context)
     return redirect('accounts:login')
     
