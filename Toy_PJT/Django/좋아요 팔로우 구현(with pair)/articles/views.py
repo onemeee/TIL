@@ -125,6 +125,7 @@ def likes(request, article_pk):
         context = {
             'like_count' : like_count,
             'is_liked' : is_liked,
+            'pk': article_pk
         }
         return JsonResponse(context)
     return redirect('accounts:login')
