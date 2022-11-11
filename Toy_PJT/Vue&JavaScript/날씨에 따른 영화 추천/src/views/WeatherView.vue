@@ -24,7 +24,7 @@ export default {
   name: 'WeatherView',
   data() {
     return {
-      appid: 'ab9306ccf50c90c636e9d5c0076b08ab',
+      appid: '자신의 api 키',
       weather: null,
       weatherid: null,
       movie: null,
@@ -91,7 +91,7 @@ export default {
       for (let i=1 ; i<6 ; i++) {
         axios({
           method: 'get',
-          url: `https://api.themoviedb.org/3/movie/top_rated?api_key=148a323ad5ea9189287024e661d1e45c&watch_region=KR&language=ko&page=${i}`
+          url: `https://api.themoviedb.org/3/movie/top_rated?api_key=자신의 api 키&watch_region=KR&language=ko&page=${i}`
         })
         .then((response) => {
           this.movies = this.movies.concat(response.data.results)

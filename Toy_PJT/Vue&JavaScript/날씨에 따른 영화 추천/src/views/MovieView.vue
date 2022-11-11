@@ -25,7 +25,7 @@ export default {
     GetMovies() {
       axios({
         method: 'get',
-        url: 'https://api.themoviedb.org/3/movie/top_rated?api_key=148a323ad5ea9189287024e661d1e45c&watch_region=KR&language=ko&page=1'
+        url: 'https://api.themoviedb.org/3/movie/top_rated?api_key=자신의api_keyc&watch_region=KR&language=ko&page=1'
       })
       .then((response) => {
         this.movies = response.data.results
